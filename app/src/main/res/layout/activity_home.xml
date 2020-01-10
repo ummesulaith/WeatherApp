@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:background="@drawable/background_gradient"
+    tools:context=".View.HomeActivity">
+
+
+    <ImageView
+        android:layout_width="140dp"
+        android:layout_height="100dp"
+        android:id="@+id/cloud"
+        android:layout_marginTop="150dp"
+        android:src="@drawable/ic_wb_sunny_black_24dp"
+        android:layout_marginLeft="130dp"></ImageView>
+
+    <TextView
+        android:id="@+id/status"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="256dp"
+        android:lineSpacingExtra="112sp"
+        android:text="Clear"
+        android:textAlignment="center"
+        android:textColor="#FFFF"
+        android:textSize="40sp" />
+
+    <TextView
+        android:id="@+id/tempcity"
+        android:textColor="#FFFF"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="300dp"
+        android:textSize="36sp"
+        android:text="Bang"
+        android:textAlignment="center"
+        android:lineSpacingExtra="52sp"
+        />
+
+    <TextView
+        android:id="@+id/tempstate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:lineSpacingExtra="52sp"
+        android:text="Karna"
+        android:layout_marginTop="340dp"
+        android:textAlignment="center"
+        android:textColor="#FFFF"
+        android:textSize="36sp" />
+
+
+    <TextView
+        android:id="@+id/temp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="400dp"
+        android:layout_marginLeft="15dp"
+        android:text="45"
+
+        android:textColor="#FFFF"
+        android:textSize="60sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="o"
+        android:textColor="#FFFF"
+        android:layout_marginLeft="90dp"
+        android:layout_marginTop="410dp"
+        ></TextView>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_cloud_queue_black_24dp"
+        android:layout_marginTop="450dp"
+        android:layout_marginLeft="140dp"></ImageView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="420dp"
+        android:text="Sun"
+        android:textColor="#FFFF"
+        android:textSize="20sp"
+        android:layout_marginLeft="140dp">
+    </TextView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="420dp"
+        android:text="Mon"
+        android:textColor="#FFFF"
+        android:textSize="20sp"
+        android:layout_marginLeft="220dp">
+
+    </TextView>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_cloud_queue_black_24dp"
+        android:layout_marginTop="450dp"
+        android:layout_marginLeft="220dp"></ImageView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="420dp"
+        android:text="Tues"
+        android:textColor="#FFFF"
+        android:textSize="20sp"
+        android:layout_marginLeft="290dp">
+
+    </TextView>
+
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_cloud_queue_black_24dp"
+        android:layout_marginTop="450dp"
+        android:layout_marginLeft="290dp"></ImageView>
+
+</RelativeLayout>
